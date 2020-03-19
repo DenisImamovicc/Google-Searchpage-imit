@@ -1,0 +1,1 @@
+"Creating a imitation of a standard google searchpage using html and css."
