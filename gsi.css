@@ -18,17 +18,54 @@ color: grey;
 }
 
 div.search-suggestion {
+    margin: 20px;
+    padding: 0px;
+
+}
+
+h1 {
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    color: blue;
+
+    margin: 5px;
+    padding: 0px;
+
+}
+
+h2 {
+    font-size: 16px;
+    display: inline-block;
+    text-align: left;
     
+
+    margin: 5px;
+    padding: 0px;
+
+}
+
+p {
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+
+    margin: 5px;
+    padding: 0px;
+
 }
 
 main {
 
 top: 150px;
-height: 1000px;    
+left: 110px;
 
-background-color: rgb(45, 132, 182);
+align-self: ;
+width: 650px;
+
+border: solid;
 position: relative;
-margin: auto;
+display:;
 
 
 
@@ -93,18 +130,21 @@ margin-left: 10px;
 list-style-type: none;
 position: relative;
 
+
 top: 70px;
 left: 70px;
 }
 
 a {
-text-decoration: none;
 color: #5f6368;
+text-decoration: none;
+
 }
 
 
 ul {
 position: relative;
+
 }
 
 ul.Right{
@@ -124,7 +164,7 @@ left: 110px;
 }
 
 body {
-height: 200vh;
+
 
 padding:0;
 margin:0;
