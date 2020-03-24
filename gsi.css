@@ -34,6 +34,11 @@ h1 {
 
 }
 
+h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 h2 {
     font-size: 16px;
     display: inline-block;
@@ -43,6 +48,31 @@ h2 {
     margin: 5px;
     padding: 0px;
 
+}
+
+h4.Aboutxresults {
+    color: grey;
+    position: absolute;
+    
+    
+    font-size: 16px;
+    font-weight: lighter;
+    
+    top: 100px;
+    left: 110px;
+}
+
+h4.Search-relate {
+    color:;
+    position: relative;
+    
+    
+    font-size: 20px;
+    font-weight: lighter;
+
+    
+    top: ;
+    left: ;
 }
 
 p {
@@ -65,17 +95,11 @@ left: 110px;
 align-self: ;
 width: 650px;
 
-border: solid;
+border: none;
 position: relative;
 display:;
 
-
-
 }
-
-
-
-
 
 input {
 width: 600px;
@@ -109,11 +133,49 @@ left: 680px;
 }
 
 
-img {
+img.google-header {
 position: relative;
 top: 20px;
 left: 10px;
 
+}
+
+div.google-bottom-footer {
+    position: relative;
+    display: inline-block;
+    bottom: -470px;
+    left: 200px;
+    
+}
+
+div.Ul-mainbottom {
+    position: relative;
+    left: 500px;
+
+}
+
+li.Main-bottom {
+    position: relative;
+    left: -50px;
+    top: -10px;
+    color: blue;
+
+
+    
+}
+
+li.Main-bottom:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li.Search-list{
+    color: blue;
+    margin: 5px;
+    display: table;
+
+    top: 0px;
+    left: -40px;
 }
 
 button {
@@ -140,7 +202,7 @@ left: 70px;
 
 li.bottom {
     float: left;
-    top: auto;
+    top: -15px;
 
     margin: 20px;
 }
@@ -172,30 +234,17 @@ ul.Right{
 right: -70px;
 }
 
-h4 {
-color: grey;
-position: absolute;
 
 
-font-size: 16px;
-font-weight: lighter;
-
-top: 100px;
-left: 110px;
-}
-
-body {
-
-
-padding:0;
-margin:0;
+body {                  
+    padding:0;      
+    margin:0;
+    overflow-x: hidden;
 }
 
 html {
     position: relative;
     min-height: 100%;
-    min-width: 100%;
-
 }
 
 footer {
