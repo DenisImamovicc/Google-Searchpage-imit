@@ -1,6 +1,4 @@
-header {
-    display: 0;
-}
+
 
 div.Head{ 
 
@@ -132,6 +130,10 @@ top: -62px;
 left: 680px;
 }
 
+i:hover{
+    color: blue;
+}
+
 
 img.google-header {
 position: relative;
@@ -141,9 +143,9 @@ left: 10px;
 }
 
 div.google-bottom-footer {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    bottom: -470px;
+    bottom: -150px;
     left: 200px;
     
 }
@@ -170,12 +172,39 @@ li.Main-bottom:hover {
 }
 
 li.Search-list{
+    display: ;
     color: blue;
     margin: 5px;
     display: table;
 
     top: 0px;
     left: -40px;
+    float: none;
+    font-weight: bold;
+}
+
+li.Search-list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li.Search-list2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li.Search-list2{
+    display: ;
+    color: blue;
+    margin: 5px;
+    display: table;
+
+    top: -90px;
+    left: 250px;
+    float: none;
+
+    font-weight: bold;
+
 }
 
 button {
@@ -234,21 +263,26 @@ ul.Right{
 right: -70px;
 }
 
+ul.Search-list {
+    display: inline-block;
+    position: relative;
+    
+
+}
+
 
 
 body {                  
     padding:0;      
     margin:0;
     overflow-x: hidden;
+    
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
+
 
 footer {
-    bottom: -51%;
+    bottom: -100%;
 
     width: 100%;
     height: 50px;
